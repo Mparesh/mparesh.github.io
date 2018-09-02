@@ -2,7 +2,7 @@ name: Paresh Mhetre's Blog
 description: >
     
 about: >
-    Data Science enthusiast.
+    Business Intelligence enthusiast.
 
 master_repo: false
 url: "http://mparesh.github.io"
@@ -19,7 +19,7 @@ disqus_shortname:
 rtl: false
 owner:
   name:           
-  avatar:         https://github.com/Mparesh/mparesh.github.io/blob/master/asset/IMG_3035.jpg
+  avatar:         https://raw.githubusercontent.com/Mparesh/mparesh.github.io/master/asset/IMG.jpg
   email:          "pareshmhetre@gmail.com"
   # Social networking links used in footer. Update and remove as you like.
   twitter: https://twitter.com/PareshMhetre
