@@ -18,11 +18,11 @@ disqus_shortname:
 
 rtl: false
 owner:
-  name:           Paresh Mhetre
-  avatar:         "https://github.com/Mparesh/mparesh.github.io/blob/master/asset/IMG_3035.jpg"
-  email:          "pareshmhetre@gmail.cmo"
+  name:           
+  avatar:         https://github.com/Mparesh/mparesh.github.io/blob/master/asset/IMG_3035.jpg
+  email:          "pareshmhetre@gmail.com"
   # Social networking links used in footer. Update and remove as you like.
-  twitter: pareshmhetre
+  twitter: https://twitter.com/PareshMhetre
   github: https://github.com/Mparesh
   stackexchange:
   linkedin: https://www.linkedin.com/in/paresh-mhetre-16939198/
