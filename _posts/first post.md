@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "First Post"
-date: 2018-09-15
-comments: true
-categories: Power BI
+description: "setting up blog"
+category: articles
+tags: [power, BI, twitter]
+comments: false
 ---
-
 
 ***Hi***
 
