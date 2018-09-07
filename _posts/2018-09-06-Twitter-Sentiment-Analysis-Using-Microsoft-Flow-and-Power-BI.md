@@ -8,36 +8,32 @@ comments: false
 ---
 
 
-This is exciting blogpost to me. A small experiment of using few Microsoft services strikes me to think about opportunity it gives to understand the depth of analytics and visualizations. The aim is to search any Keyword/hashtag in tweets on Twitter and analyse the sentiments and visualize the outcome graphically. Microsoft Flow, Cognitive services and Power BI total three services used here.
+This blogpost is exciting! A small experiment of using few Microsoft services strikes me to think about opportunity it gives to understand the depth of analytics and visualizations. The aim is to search a keyword/hashtag in tweets on Twitter and analyse the sentiment and visualize the outcome graphically. Microsoft Flow, Cognitive services and Power BI total three services used here.
 
 
 **Twitter**
 
-Twitter is micro-blogging social media website. Users post Tweets that can be text, multi-media content and interact with other twitter users. Here I analyse Text part of these tweets containing word #FridayFeeling. Users may tweet expressing individual’s feeling of exhausting week that can convey negative sentiment or may express peaceful weekend is approaching with happy sentiment.
-
+Twitter is micro-blogging social media website. Users post Tweets that can be text, multi-media content and interact with other twitter users. Let us consider users tweet expressing individual’s feeling of exhausting week that can convey negative sentiment or express peaceful weekend is approaching with happy sentiment. Here I analyse Text part of tweets containing word #FridayFeeling which is often trending topic on twitter.
 
 
 **Microsoft Flow**
 
-Automation tools are generally is used to integrate various services to execute tasks on time based or trigger based. Flow is popular among non-programmers as there is absolutely no need coding involved and its intuitive way of designing task flows. Here with the help of single Flow Template, I am able to connect all required services together quickly. I could not find any other easier and simpler way to set it up. Flow also records the number of times it has run this set up and if the result was succeeded or failed. Its helpful in case of troubleshooting any problem the flow.
+Automation tools are generally used to integrate various services and execute tasks. Flow is popular among non-programmers as there is absolutely no need coding involved. It also has intuitive way of designing task flows. Here with the help of single Flow Template, I am able to connect all required services together quickly. I could not find any other easier and simpler way to set it up. Flow records the number of times it has run this set up and if the result was success or failure.
 
-Flow Template snapshot as below
+-Flow Template snapshot as below
 
 ![https://raw.githubusercontent.com/Mparesh/mparesh.github.io/master/asset/Flow%20Template.png](https://raw.githubusercontent.com/Mparesh/mparesh.github.io/master/asset/Flow%20Template.png "Flow template")
 
 **Microsoft Cognitive services**
 
-Text Analytics part of cognitive services rates the input sentence between 0 to 1 where 0 is extremely negative and 1 extremely positive sentiment. 0.5 value is retuned when cognitive service could not rate the sentence or sentence itself is neutral. This value is called as “score”.
-
+Text Analytics part of cognitive services rates the input sentence between 0 to 1 where 0 is extremely negative and 1 extremely positive sentiment. 0.5 value is retuned when cognitive service could not rate the sentence or sentence itself is neutral. This value is called as sentiment “score”.
 
 
 **Microsoft Power BI**
 
-It is one of the best tools available in the field of business intelligence. Power BI service supports streaming dataset. This means everything that that is set up at Flow can be directly connected to power BI and data is pushed in as streams. Based on this data a report can be designed in order to visualize the data interactively. 
+It is one of the best tools available in the field of business intelligence. Power BI service supports streaming dataset. This means everything that that is set up at Flow can be directly connected to power BI and data is pushed in as streams. Based on this data a report can be designed to visualize the data interactively.
 
-
-
-Power BI Streaming Dataset snapshot as below
+-Power BI Streaming Dataset snapshot as below
 
 ![Power BI streaming dataset](https://raw.githubusercontent.com/Mparesh/mparesh.github.io/master/asset/Power%20BI%20Streaming%20Dataset.jpg) 
 
@@ -52,15 +48,15 @@ Power BI Streaming Dataset snapshot as below
 
 **Advantages:**
 
-- All services are cloud based, so no local hosting of data or no infra required at all.
+- All services are cloud based, so no local hosting of data or no infra is required.
 - Set up is easy and quick with the help existing Flow template. No coding is required. Seamless integration of all services.
-- Trigger based or time-based start of the flow.
+- Trigger-based or time-based start of the flow is easily configurable.
 
 
 **Drawbacks:**
 
-- Twitter connector in Flow gives no fields related to twitter user profile info. So I guess important fields are missed during deep analytics.
-- Power BI service has no feature of adding DAX to insert new column or measure. So limited scope in analysis inturn less visualization.
+- Twitter connector in Flow gives no fields related to twitter user profile info. So I guess important fields are missed during complex analytics.
+- Power BI service has no feature of adding DAX to insert new column or measure. So limited scope in analysis in turn less visualization.
 
 **References**
 
