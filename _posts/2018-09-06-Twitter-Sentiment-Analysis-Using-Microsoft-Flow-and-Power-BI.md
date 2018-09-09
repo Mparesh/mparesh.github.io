@@ -37,7 +37,7 @@ It is one of the best tools available in the field of business intelligence. Pow
 
 ![Power BI streaming dataset](https://raw.githubusercontent.com/Mparesh/mparesh.github.io/master/asset/Power%20BI%20Streaming%20Dataset.jpg) 
 
-**Data is visualized in Power BI**
+**Data is visualization in Power BI**
 
 1. Text box – Title of the report
 2. Table – Total 4 columns to showcase actual Data. Username, Tweet text and its corresponding sentiment Score and the timestamp of tweet. By clicking on any of the header column data is sorted in ascending/descending order. 
@@ -56,7 +56,7 @@ It is one of the best tools available in the field of business intelligence. Pow
 **Drawbacks:**
 
 - Twitter connector in Flow gives no fields related to twitter user profile info. So I guess important fields are missed during complex analytics.
-- Power BI service has no feature of adding DAX to insert new column or measure. So limited scope in analysis in turn less visualization.
+- Power BI service has no feature of adding DAX to insert new column or measure. So limited scope of analysis in turn less visualization.
 
 **References**
 
