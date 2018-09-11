@@ -6,7 +6,7 @@ about: >
     I also occasaionaly write on personal blog : [https://pareshmhetre.wordpress.com/](https://pareshmhetre.wordpress.com/)
 
 master_repo: false
-url: "http://mparesh.github.io"
+url: "https://mparesh.github.io"
 markdown: kramdown
 highlighter: rouge
 
