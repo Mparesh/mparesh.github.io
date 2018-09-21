@@ -29,11 +29,6 @@ On last page, by using built-in forecasting models two line charts shows growth 
 
 **Implemention**
 
-For implementing this visualization, excel connector was used in Power BI desktop. Basic formatting done using power query UI. There was no need of M functions as data was clean, no missing values were present. During analysis total number of vehicles and new vehicle calculations were done by various DAX function like IF, SUMX, CALCULATE AND PREVIOUSYEAR. This report was published to Power BI service and report URL is embedded in this blogpost.
+For implementing this visualization, excel connector was used in Power BI desktop. Basic formatting done using power query UI. There was no need of M functions as data was clean, no missing values were present. During analysis total number of vehicles and new vehicle calculations were done by various DAX function like IF, SUMX, CALCULATE and PREVIOUSYEAR. This report was published to Power BI service and report URL is embedded in this blogpost.
 
 <iframe width="800" height="600" src="https://app.powerbi.com/view?r=eyJrIjoiZTViYTE5ZGEtZDQ3Mi00MDUzLWI0ZjEtM2Q0YWUzYTQwNTYzIiwidCI6IjliOTFmNGY2LWVmM2EtNDFkZS1hNWE4LTJkYTZkYjg2MDkxYSJ9" frameborder="0" allowFullScreen="true"></iframe>
-
-
-below is different size
-
-<iframe width="680" height="510" src="https://app.powerbi.com/view?r=eyJrIjoiZTViYTE5ZGEtZDQ3Mi00MDUzLWI0ZjEtM2Q0YWUzYTQwNTYzIiwidCI6IjliOTFmNGY2LWVmM2EtNDFkZS1hNWE4LTJkYTZkYjg2MDkxYSJ9" frameborder="0" allowFullScreen="true"></iframe>
