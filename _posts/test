@@ -1,0 +1,10 @@
+---
+layout: post
+title: "Test"
+description: "test"
+category: articles
+tags: [power, BI, twitter, flow, cognitive, services, text, analytics]
+comments: false
+---
+
+<iframe width="800" height="600" src="https://app.powerbi.com/view?r=eyJrIjoiNzQyYTQ5MmMtNmQxMC00YTI0LWJkNmQtNGI2ZmM5OTNmYmM0IiwidCI6IjliOTFmNGY2LWVmM2EtNDFkZS1hNWE4LTJkYTZkYjg2MDkxYSJ9" frameborder="0" allowFullScreen="true"></iframe>
