@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Telecom Subscriber Report"
+title: "Telecoms Subscriber Report"
 description: "data visualization of Telecom Subscriber Report"
 category: articles
 tags: [power, BI, telecom, data, visualization]
