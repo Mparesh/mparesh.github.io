@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Test"
-description: "test"
+title: "Telecom Subscriber Report"
+description: "Telecom Subscriber Report"
 category: articles
 tags: [power, BI, telecom, Subscriber, churn, customer, revenue, rankx]
 comments: false
