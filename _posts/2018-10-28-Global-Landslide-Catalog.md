@@ -20,17 +20,22 @@ Further on right top corner of both pages has a ‘Slicer’ that can be used to
 
 In PowerBI service, under Dataset option ‘scheduled refresh’ configuration can be done. As shown in snapshot below, authentication method is ‘Anonymous’ because there is no requirement to sign into dataset.
 
-![https://raw.githubusercontent.com/Mparesh/mparesh.github.io/master/asset/OData_Anonymous_signin_1.JPG]( https://raw.githubusercontent.com/Mparesh/mparesh.github.io/master/asset/OData_Anonymous_signin_1.JPG “Data Source Credentials”)
+![Configure Sign-in](https://raw.githubusercontent.com/Mparesh/mparesh.github.io/master/asset/OData_Anonymous_signin_2.JPG)
 
-
-![https://raw.githubusercontent.com/Mparesh/mparesh.github.io/master/asset/OData_Anonymous_signin_2.JPG]( https://raw.githubusercontent.com/Mparesh/mparesh.github.io/master/asset/OData_Anonymous_signin_2.JPG “Configure Sign-in”) 
+![Data Source Credentials](https://raw.githubusercontent.com/Mparesh/mparesh.github.io/master/asset/OData_Anonymous_signin_1.JPG)
 
 
 As NASA has not mentioned update frequency, I have set to maximum possible rate, weekly once.
-![ https://raw.githubusercontent.com/Mparesh/mparesh.github.io/master/asset/OData_scheduled_refresh1.JPG]( https://raw.githubusercontent.com/Mparesh/mparesh.github.io/master/asset/OData_scheduled_refresh1.JPG “Schedule Refresh”) 
+
+- Schedule Refresh
 
 
-![https://raw.githubusercontent.com/Mparesh/mparesh.github.io/master/asset/OData_scheduled_refresh2.JPG]( https://raw.githubusercontent.com/Mparesh/mparesh.github.io/master/asset/OData_scheduled_refresh2.JPG “Next Refresh Details”) 
+![Schedule Refresh](https://raw.githubusercontent.com/Mparesh/mparesh.github.io/master/asset/OData_scheduled_refresh1.JPG)
+
+- Next Refresh Details
+
+
+![Next Refresh Details](https://raw.githubusercontent.com/Mparesh/mparesh.github.io/master/asset/OData_scheduled_refresh2.JPG)
 
 
 **Alert Notification**
@@ -38,9 +43,11 @@ As NASA has not mentioned update frequency, I have set to maximum possible rate,
 A card showing count of Incidents on first page, I pinned it to dashboard. I wanted to receive alert if new incident is added, so I put threshold value a bit greater than current number of incidents i.e. 11035. There is also an amazing facility to connect this threshold as a trigger to Microsoft Flow.
 
 
-![ https://raw.githubusercontent.com/Mparesh/mparesh.github.io/master/asset/Alert_Notification_1.JPG] (https://raw.githubusercontent.com/Mparesh/mparesh.github.io/master/asset/Alert_Notification_1.JPG “Manage Alert”)
+![Manage Alert](https://raw.githubusercontent.com/Mparesh/mparesh.github.io/master/asset/Alert_Notification_1.JPG)
 
-![ https://raw.githubusercontent.com/Mparesh/mparesh.github.io/master/asset/Alert%20Notification_2.JPG] (https://raw.githubusercontent.com/Mparesh/mparesh.github.io/master/asset/Alert%20Notification_2.JPG “Alert Details”)
+
+
+![Alert Details](https://raw.githubusercontent.com/Mparesh/mparesh.github.io/master/asset/Alert%20Notification_2.JPG)
 
 
 **Power BI Visualization**
