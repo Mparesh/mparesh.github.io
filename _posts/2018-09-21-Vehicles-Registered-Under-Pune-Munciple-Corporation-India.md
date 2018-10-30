@@ -6,8 +6,8 @@ category: articles
 tags: [power, BI, pune, open, data, visualization, analytics, India]
 comments: false
 ---
-
 A Power BI report below is interactive visualization of number of vehicles registered under Pune Municipal Corporation in Maharashtra state of India from Year 2002 to 2017. Dataset is taken from PMC open data. Number of vehicles can be considered as one of the key parameters to analyse the growth of a city. Simple 16 rows of data represented by Charts, matrix and cards can showcase insights to great extent about the development of Pune city. It also gives sneak peek of ten years into the future. This report consists of four pages.
+
 
 **Data**
 
