@@ -20,15 +20,18 @@ Further on right top corner of both pages has a ‘Slicer’ that can be used to
 
 In PowerBI service, under Dataset option ‘scheduled refresh’ configuration can be done. As shown in snapshot below, authentication method is ‘Anonymous’ because there is no requirement to sign into dataset.
 
--Configure Sign-in
-
-
-![Configure Sign-in](https://raw.githubusercontent.com/Mparesh/mparesh.github.io/master/asset/OData_Anonymous_signin_2.JPG)
-
 - Data Source Credentials
 
 
 ![Data Source Credentials](https://raw.githubusercontent.com/Mparesh/mparesh.github.io/master/asset/OData_Anonymous_signin_1.JPG)
+
+
+- Configure Sign-in
+
+
+![Configure Sign-in](https://raw.githubusercontent.com/Mparesh/mparesh.github.io/master/asset/OData_Anonymous_signin_2.JPG)
+
+
 
 
 Also as NASA has not mentioned update frequency, I have set to maximum possible rate, weekly once.
@@ -42,6 +45,7 @@ Also as NASA has not mentioned update frequency, I have set to maximum possible 
 
 
 ![Next Refresh Details](https://raw.githubusercontent.com/Mparesh/mparesh.github.io/master/asset/OData_scheduled_refresh2.JPG)
+
 
 
 
