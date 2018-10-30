@@ -6,8 +6,6 @@ category: articles
 tags: [power, BI, twitter, flow, cognitive, services, text, analytics]
 comments: false
 ---
-
-
 This blogpost is exciting! A small experiment of using few Microsoft services strikes me to think about opportunity it gives to understand the depth of analytics and visualizations. The aim is to search a keyword/hashtag in tweets on Twitter and analyse the sentiment and visualize the outcome graphically. Microsoft Flow, Cognitive services and Power BI total three services used here.
 
 
