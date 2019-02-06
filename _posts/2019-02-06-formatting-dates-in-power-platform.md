@@ -39,6 +39,7 @@ MM-DD-YY = FORMAT('Date'[Date], "MM-DD-YY")
 ![](https://raw.githubusercontent.com/Mparesh/mparesh.github.io/master/asset/powerbi_6.JPG "MM-DD-YY")
 
 These all columns are used in Table visual below.
+
 ![](https://raw.githubusercontent.com/Mparesh/mparesh.github.io/master/asset/powerbi_3.JPG "Table visual in PowerBI")
 
 ## Flow
@@ -60,7 +61,7 @@ formatDateTime(utcNow(), 'yyyy-MM-dd')
  - DateTimeFormat - Required. A member of the DateTimeFormat enumeration.
  - ResultLanguageTag - Optional. The language tag to use for the result text. By default, the language of the current user is used.
 
-Various other predefined combinations of format codes are listed [here.](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/functions/function-text "https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/functions/function-text")
+Various predefined combinations of format codes are listed [here.](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/functions/function-text "https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/functions/function-text")
 
 Title1_2 is a label inside BrowseGallery1 which shows the Date column in connected data source by using function ThisItem.Date. Its showing date and time. By using below functions in label Title_1 LongDate format is shown and no time.
 ```sh
