@@ -6,7 +6,7 @@ category: articles
 tags: [power, BI, flow, powerapps, DAX, apps, data, Visualization, date, format, text, excel, utcnow, sharepoint, DateTimeFormat]
 comments: false
 ---
-Sometimes Date format is very confusing for me, be it written on paper or online. Let’s consider a date 06-02-19. So, is it 2nd of June or 6th of February or 19th of February? Microsoft applications have versatile functions to change the format how day, month and year are arranged together to form a complete date. I used few of such easy to use functions in Excel, Flow, Powerapps and PowerBI. There is bunch of predefined functions in each of these applications to change representation of any text and particularly date. Note that functions listed in this blogpost are primarily used to change the format of date and not to take other insights of data.
+Sometimes Date format is very confusing for me, be it written on paper or online. Let’s consider a date 06-02-19. So, is it 2nd of June or 6th of February or 19th of February? Microsoft applications have versatile functions to change the format how day, month and year are arranged together to form a complete date. I used few of such easy to use functions in Excel, Flow, Powerapps and PowerBI. There is bunch of predefined functions in each of these applications to change representation of text and particularly date. Note that functions listed in this blogpost are primarily used to change the format of date and not to take other insights of data.
 
 
 ## EXCEL
@@ -14,7 +14,7 @@ A simple right click on cell or a column gives option to format cells to choose 
 
 ![format cells in excel](https://raw.githubusercontent.com/Mparesh/mparesh.github.io/master/asset/format%20cells.JPG "Format Cells")
 
-There is a function in Excel – TEXT(value, format_text) which does the same by using it in formula bar. Text function is very powerful and useful to display Date is readable format.
+There is a function in Excel – TEXT(value, format_text) which does the same by using it in formula bar. Text function is very powerful and useful to display Date in readable format.
  
 Column A has Date in DD-MM-YYY format. Column B, C and D are different textual representation of same date in column A. 
 ```sh
@@ -38,14 +38,14 @@ MM-DD-YY = FORMAT('Date'[Date], "MM-DD-YY")
 ![](https://raw.githubusercontent.com/Mparesh/mparesh.github.io/master/asset/powerbi_5.JPG "Day Column")
 ![](https://raw.githubusercontent.com/Mparesh/mparesh.github.io/master/asset/powerbi_6.JPG "MM-DD-YY")
 
-These all columns are used in Table visual below.
+All these columns are used in Table visual in report view of PowerBI shown below.
 
 ![](https://raw.githubusercontent.com/Mparesh/mparesh.github.io/master/asset/powerbi_3.JPG "Table visual in PowerBI")
 
 ## Flow
 formatDateTime(timestamp: string, format?: string)
 In first example here, is to check whether filename contains today’s date when items are listed from SharePoint List. And another example is to check if file is modified today. utcNow() function gives current date-time of UTC timezone. For comparison it is needed to change format of UTC timestamp corresponding to filename and LastModified property.
-Note that for month, code is capital M and small m for minute value in time.
+Note that for month, code is capital M and small m is code for minute value in time.
 ```sh
 formatDateTime(utcNow(), 'dd-MM-yyyy')
 formatDateTime(utcNow(), 'yyyy-MM-dd')
