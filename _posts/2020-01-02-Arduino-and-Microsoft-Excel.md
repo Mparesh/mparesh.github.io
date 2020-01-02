@@ -34,12 +34,15 @@ I have ambient light sensor TSL2561 connected to Arduino Uno board by I2C interf
 Data streamer add-in can read the same serial port to which arduino is connected to. I am only reading data and writing back to arduino. So by putting appropriate values in Settings sheet, you can view the sensor reading Data-In sheet.
 
 Arduino Uno
+
 ![Arduino Uno](https://raw.githubusercontent.com/Mparesh/mparesh.github.io/master/asset/ArduinoUno_small.jpg "Arduino Uno")
 
 Sensor TSL2561
+
 ![Sensor TSL2561](https://raw.githubusercontent.com/Mparesh/mparesh.github.io/master/asset/tsl2561_small.jpg "Sensor TSL2561")
 
 Excel Demo
+
 ![Excel Demo](https://raw.githubusercontent.com/Mparesh/mparesh.github.io/master/asset/ezgif.com-video-to-gif.gif "Excel Demo")
 
 **PROS AND CONS**
