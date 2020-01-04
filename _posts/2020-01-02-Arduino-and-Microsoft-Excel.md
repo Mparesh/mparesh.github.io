@@ -16,7 +16,7 @@ Or even if you are at a beginner level, I bet you will definitely like to play a
 
 **SERIAL COMMUNICATION**
 
-In Embedded systems, communication via serial port is still widely used. The simplicity and usability of this is really impressive. All the arduino boards have either on-chip or on-board circuitry (UART) to make voltage levels compatible between devices. So these boards are capable to communicate with computers (old) having DB9 connectors as well as via USB connector. This communication is based on RS232 protocol.
+In Embedded systems, communication via serial port is still widely used. The simplicity and usability of this is really impressive. All the arduino boards have either on-chip or on-board circuitry (UART) to make voltage levels compatible between devices. So these boards are capable to communicate with computers (old) having DB9 connectors as well as via USB connector. This communication is based on [RS232 protocol.](https://www.edgefxkits.com/blog/max232ic-and-interfacing-needs/ "https://www.edgefxkits.com/blog/max232ic-and-interfacing-needs/")
 
 
 **MICROSOFT EXCEL**
