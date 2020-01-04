@@ -7,7 +7,7 @@ tags: [data, streamer, addin, plugin, Visualization, time, format, text, excel, 
 comments: false
 ---
 
-If you are an Arduino hobbyist and a fan of Microsoft Excel then you must try out this cool combination to display data flowing through the serial port of your computer.
+If you are an [Arduino](https://en.wikipedia.org/wiki/Arduino "https://en.wikipedia.org/wiki/Arduino") hobbyist and a fan of [Microsoft Excel](https://en.wikipedia.org/wiki/Microsoft_Excel "https://en.wikipedia.org/wiki/Microsoft_Excel") then you must try out this cool combination to display data flowing through the serial port of your computer.
 
 Or if you are a Pro in any of the arduino or excel you can explore amazing capabilities of data visualization.
 
@@ -21,7 +21,7 @@ In Embedded systems, communication via serial port is still widely used. The sim
 
 **MICROSOFT EXCEL**
 
-Excel is basically a spreadsheet to enter data and make operations like storing data, writing formulas for calculations, creating pivot table and graphical representation of data. Add-in or plug-in can be installed to simplify complex operations. Here I have used add-in called Data Streamer.
+Excel is basically a spreadsheet to enter data and make operations like storing data, writing formulas for calculations, creating pivot table and graphical representation of data. Add-in or plug-in can be installed to simplify complex operations. Here I have used add-in called [Data Streamer.](https://www.microsoft.com/en-us/education/hackingstem/datastreamer "https://www.microsoft.com/en-us/education/hackingstem/datastreamer")
 
 
 > Data Streamer Add-In supports capturing, visualizing, and analyzing real-time sensor data in Excel spreadsheets.
@@ -30,7 +30,7 @@ Excel is basically a spreadsheet to enter data and make operations like storing 
 
 **THE SET UP**
 
-I have ambient light sensor TSL2561 connected to Arduino Uno board by I2C interface. I have used libraries and code (I tweaked it a little) by Adafriut. Arduino is programmed to read sensor value every second and it sends value out via serial port to PC/laptop.
+I have ambient light sensor TSL2561 connected to Arduino Uno board by I2C interface. I have used libraries and code (I tweaked it a little) by [Adafriut.](https://en.wikipedia.org/wiki/Adafruit_Industries "https://en.wikipedia.org/wiki/Adafruit_Industries") Arduino is programmed to read sensor value every second and it sends value out via serial port to PC/laptop.
 Data streamer add-in can read the same serial port to which arduino is connected to. I am only reading data and writing back to arduino. So by putting appropriate values in Settings sheet, you can view the sensor reading Data-In sheet.
 
 Arduino Uno
