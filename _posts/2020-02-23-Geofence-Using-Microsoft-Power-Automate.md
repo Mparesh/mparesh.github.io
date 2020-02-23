@@ -37,6 +37,9 @@ Based on this parameter, flow triggers the mobile notificaion. Flow is designed 
 **Mobile Notification**
 ![ ](https://raw.githubusercontent.com/Mparesh/mparesh.github.io/master/asset/IMG_5447.PNG  "Mobile Notification")
 
+Another use of this connector
+
+
 >As a hobbiest you can even create a flow and use this trigger from Live/Outlook account and populate and excel sheet stored on Onedrive.
 
 Create a table in Excel Online stored on Onedrive. Choose action as "Add a row in a table" and connect the sheet to power automate.
