@@ -14,7 +14,10 @@ Microsoft has brought the **Geofence connector** in Power Automate and in latest
 
 ![Release ](https://raw.githubusercontent.com/Mparesh/mparesh.github.io/master/asset/geofence2.png  "Release")
 
-Choose trigger Location - "When I enter or exit an area". Connector is simple, find the address on Bing map or provide lattitude and longitude of the geographic location. Adjust the zoom level on the map to define the virtual circular fence over that geogrpahic location. Now, if your mobile device is connected to GPS and internet, your flow is triggered when you enter or exit  geofence. It is all automatic! :)
+
+**Trigger** Location - When I enter or exit an area
+
+Connector is simple, find the address on Bing map or provide lattitude and longitude of the geographic location. Adjust the zoom level on the map to define the virtual circular fence over that geogrpahic location. Now, if your mobile device is connected to GPS and internet, your flow is triggered when you enter or exit  geofence. It is all automatic! :)
 
 ![Connector ](https://raw.githubusercontent.com/Mparesh/mparesh.github.io/master/asset/geofence1.png  "Connector")
 
