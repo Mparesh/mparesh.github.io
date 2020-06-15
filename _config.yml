@@ -2,8 +2,12 @@ name:
 description: >
     
 about: >
-    My name is Paresh. I worked in Telecom Network Operations for few years. Currently learning Business Intelligence analytics, data visualization and started this github page to write about it.
-    I also occasaionaly write on personal blog : [https://pareshmhetre.wordpress.com/](https://pareshmhetre.wordpress.com/)
+    Analyst with experience in IT Service Management and worked extensively on monitoring and reporting processes varying from Telecom, Cloud infrastructure to Identity Access
+Management.
+
+I post here about my learnings in low-code/no-code platforms.
+
+I also occasaionaly write on personal blog : [https://pareshmhetre.wordpress.com/](https://pareshmhetre.wordpress.com/)
 
 master_repo: false
 url: "https://mparesh.github.io"
@@ -21,7 +25,7 @@ rtl: false
 owner:
   name:           
   avatar:         https://raw.githubusercontent.com/Mparesh/mparesh.github.io/master/asset/IMG.jpg
-  email:          "pareshmhetre@gmail.com"
+  email:          "pareshmhetre1@gmail.com"
   # Social networking links used in footer. Update and remove as you like.
   twitter: PareshMhetre
   github:
