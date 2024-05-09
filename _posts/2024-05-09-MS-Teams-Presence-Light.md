@@ -9,6 +9,3 @@ comments: false
 Are you tired of being interrupted during important online work meetings at home? Well, this LED lamp can save you! Your MS Team’s status will light up the LED lamp, indicating to those around you when it's best not to disturb you.
 
 I subscribed to Graph API beta version to get notifications when Teams status is changed. As soon as the change notification is received an Azure Function is triggered and it sends message to NodeMCU using Azure IoTHub. A NodeMCU (ESP2866 development board) is an Arduino compatible tiny computer (technically it’s a microcontroller) it has onboard WiFi. Thanks to Microsoft for a library and sample code to connect Nodemcu to Azure IoTHub, it made my life easy. So based on the Teams status my 4x4 RGB LEDs changes its color.
-
-**Diagram**
-![ ](https://raw.githubusercontent.com/Mparesh/mparesh.github.io/8fc0a5454d04a9dff1f599dd440aeed6bf60afd7/asset/MSTeamPresence.png "Diagram")
