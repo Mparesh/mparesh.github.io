@@ -26,9 +26,9 @@ Let’s get into the details of how it works. The solution consists of two parts
 
 ## Observations
 - When testing the solution I observed that though teams status sent by graph api to azure function was in near real time but it did NOT come in correct sequence. If my teams status is changed from busy to available to away to offline in very fast fashion, many times the azure function did not receive status in exact specific sequence. However, to overcome this one may need to be mindful in changing Teams status.
-- Graph API token lasts only for an hour or so. Also this API is still in beta version, not useful in large deployment in PROD.
+- Graph API token lasts only for an hour or so. Also this API is still in beta version, not useful in large deployment in Production environment.
 - Development cost of electronics is affordable. If you already have Azure subscription, MS licensed products then total cost is not very expensive for 1 prototype.
-- Although it is fun to develop the project for hands-on experience, I am still pondering on a thought if it is really worthy use case to do in PROD on a large scale?
+- Although it is fun to develop the project for hands-on experience, I am still pondering on a thought if it is really worthy use case to do in Production environment on a large scale?
 
 ## Demo
 Youtube Video
