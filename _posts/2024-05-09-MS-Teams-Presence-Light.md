@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Building MS Teams Presence Light using IoT and Arduino"
+title: "Building MS Teams Presence LED Light using Graph API, Azure resources and Arduino"
 description: "The project integrates Microsoft Teams status updates with Azure resources and a NodeMCU-powered RGB LED lamp"
 category: articles
 tags: [microsoft, MS, graph, api, Teams, user, presence, beta, azure, function, iot, iothub, hub, arduino, esp8266, nodemcu, rgb, led, 4x4, lamp, token, entraid, aad]
